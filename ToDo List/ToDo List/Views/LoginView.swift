@@ -26,9 +26,13 @@ struct LoginView: View {
                 Form{
                     TextField("E-Mail Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocorrectionDisabled()
+                        .textInputAutocapitalization(.never)
                     
                     SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
+                        .autocorrectionDisabled()
+                        .textInputAutocapitalization(.never)
                     
                     ToDoListButton(
                         title: "Login",

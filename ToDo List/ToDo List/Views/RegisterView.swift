@@ -29,10 +29,12 @@ struct RegisterView: View {
                 TextField("E-Mail Adress", text: $email)
                     .textFieldStyle(DefaultTextFieldStyle())
                     .autocorrectionDisabled()
-                    .textInputAutocapitalization(.none)
+                    .textInputAutocapitalization(.never)
                 
                 SecureField("Password", text: $password)
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
                 
                 ToDoListButton(
                     title: "Create an Account",
