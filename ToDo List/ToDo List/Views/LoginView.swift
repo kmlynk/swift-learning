@@ -46,6 +46,7 @@ struct LoginView: View {
                     }
                     .padding(0.0)
                 }
+                .offset(y: -50)
                 
                 // Create Account
                 VStack {
