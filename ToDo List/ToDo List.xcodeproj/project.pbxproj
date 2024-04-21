@@ -32,6 +32,7 @@
 		05E5DD2B2BD483F000CC5F3F /* ToDoListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5DD2A2BD483F000CC5F3F /* ToDoListItemViewModel.swift */; };
 		05E5DD2D2BD487FF00CC5F3F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5DD2C2BD487FF00CC5F3F /* HeaderView.swift */; };
 		05E5DD2F2BD496B500CC5F3F /* ToDoListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5DD2E2BD496B500CC5F3F /* ToDoListButton.swift */; };
+		05E5DD312BD4A7F400CC5F3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5DD302BD4A7F400CC5F3F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		05E5DD2A2BD483F000CC5F3F /* ToDoListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewModel.swift; sourceTree = "<group>"; };
 		05E5DD2C2BD487FF00CC5F3F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		05E5DD2E2BD496B500CC5F3F /* ToDoListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListButton.swift; sourceTree = "<group>"; };
+		05E5DD302BD4A7F400CC5F3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				05E5DCEE2BD47A4000CC5F3F /* Assets.xcassets */,
 				05E5DCEA2BD47A3E00CC5F3F /* ToDo_ListApp.swift */,
 				05E5DCF82BD47BCF00CC5F3F /* GoogleService-Info.plist */,
+				05E5DD302BD4A7F400CC5F3F /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				05E5DD212BD483BA00CC5F3F /* ProfileViewModel.swift in Sources */,
 				05E5DD232BD483C400CC5F3F /* NewItemViewModel.swift in Sources */,
 				05E5DD132BD4830700CC5F3F /* ToDoListItemView.swift in Sources */,
+				05E5DD312BD4A7F400CC5F3F /* Extensions.swift in Sources */,
 				05E5DD1F2BD483B200CC5F3F /* ContentViewModel.swift in Sources */,
 				05E5DD0B2BD4828C00CC5F3F /* NewItemView.swift in Sources */,
 				05E5DD172BD4833C00CC5F3F /* ToDoListItem.swift in Sources */,
