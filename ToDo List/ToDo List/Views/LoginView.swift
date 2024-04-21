@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    
-    @State var email = ""
-    @State var password = ""
+    @StateObject var viewModel = LoginViewModel()
     
     var body: some View {
         NavigationView {
@@ -26,10 +24,10 @@ struct LoginView: View {
                 
                 // Login Form
                 Form{
-                    TextField("E-Mail Address", text: $email)
+                    TextField("E-Mail Address", text: $viewModel.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    SecureField("Password", text: $password)
+                    SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     ToDoListButton(
