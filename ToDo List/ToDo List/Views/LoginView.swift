@@ -32,17 +32,11 @@ struct LoginView: View {
                     SecureField("Password", text: $password)
                         .textFieldStyle(DefaultTextFieldStyle())
                     
-                    Button {
-                        // Login Function
-                    } label: {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 10)
-                                .foregroundColor(.blue)
-                            
-                            Text("Login")
-                                .foregroundColor(.white)
-                                .bold()
-                        }
+                    ToDoListButton(
+                        title: "Login",
+                        background: .blue
+                    ) {
+                        // Attempt to Login
                     }
                     .padding(0.0)
                 }
