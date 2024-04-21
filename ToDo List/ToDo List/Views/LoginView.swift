@@ -18,7 +18,7 @@ struct LoginView: View {
             VStack {
                 
                 // Header
-                HeaderView()
+                HeaderView(title: "ToDo List", subtitle: "Stop Procrastination")
                 
                 // Login Form
                 Form{
