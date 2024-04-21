@@ -22,7 +22,7 @@ struct LoginView: View {
                     title: "ToDo List",
                     subtitle: "Stop Procrastination",
                     angle: 15,
-                    background: .white)
+                    background: .blue)
                 
                 // Login Form
                 Form{

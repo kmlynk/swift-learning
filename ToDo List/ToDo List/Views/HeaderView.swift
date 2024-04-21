@@ -16,7 +16,7 @@ struct HeaderView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 0)
-                .foregroundColor(.blue)
+                .foregroundColor(background)
                 .rotationEffect(Angle(degrees: angle))
             
             VStack {
@@ -27,7 +27,7 @@ struct HeaderView: View {
                 
                 Text(subtitle)
                     .font(.system(size: 30))
-                    .foregroundColor(background)
+                    .foregroundColor(.white)
             }
             .padding(.top, 10.0)
         }
@@ -42,5 +42,5 @@ struct HeaderView: View {
         title: "Title",
         subtitle: "Subtitle",
         angle: 15,
-        background: .white)
+        background: .blue)
 }
